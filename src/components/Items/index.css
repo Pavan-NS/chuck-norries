@@ -1,0 +1,36 @@
+.li-container{
+    background-color: #ffffffff;
+    margin: 7px;
+    height: 150px;
+    width: 230px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 576px){
+   .li-container{
+    height: 30px;
+    width: 50px;
+   }
+}
+
+.title{
+    color: #1e3a8a;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 576px){
+    .title{
+        font-size: 10px;
+    }
+}
+.para{
+    color: #8321a8;
+}
+@media screen and (max-width: 576px){
+    .para{
+        display: none;
+    }
+}
